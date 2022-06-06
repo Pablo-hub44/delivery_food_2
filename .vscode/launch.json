@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mobile",
+            "request": "launch",
+            "type": "dart"
+            
+        },
+        {//el modo html
+            "name": "web html",
+            "type": "dart",
+            "request": "launch",
+            "args": [
+                "-d",
+                "edge",
+                "--web-rendered",
+                "html"
+            ]
+        },
+        {//el modo canvas
+            "name": "web canvaskit",
+            "type": "dart",
+            "request": "launch",
+            "args": [
+                "-d",
+                "edge",
+                "--web-rendered",
+                "canvaskit"
+            ]
+        }
+    ]
+}
